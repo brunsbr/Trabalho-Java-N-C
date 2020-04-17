@@ -13,20 +13,21 @@ Classe, ClasseComNomeComposto
 atributo, atributoComNomeComposto
 metodo, metodoComNomeComposto
 CONSTANTE, CONSTANTE_COM_NOME_COMPOSTO
-Implemente na sequência definida para facilitar a conclusão do trabalho
-Criar a classe Pessoa com os seguintes atributos: primeiroNome do tipo String e ultimoNome do tipo String.
-Encapsular fortemente os atributos, ou seja, tornar primeiroNome, ultimoNome privados e implementar os métodos de acesso (get e set).
-Criar uma nova classe Cartao com o seguinte atributo encapsulado: codigo do tipo int.
-Criar um construtor na classe Cartao que receba e inicialize o seguinte atributo: codigo.
-Na Cartao, criar um método público para imprimir, na saída padrão (System.out.println()), todos os atributos da classe Cartao com a seguinte assinatura: imprime() além do tipo de retorno void.
-Voltar a classe Pessoa e incluir um atributo cartao do tipo Cartao e o encapsular fortemente.
-Criar um método público para imprimir, na saída padrão (System.out.println()), todos os atributos da classe Pessoa com a seguinte assinatura: imprime() além do tipo de retorno void.
-Ainda na classe Pessoa, criar um construtor que receba os três atributos (primeiroNome, ultimoNome, cartao) e os e inicialize.
-Realize uma sobrecarga (overload) do construtor da Pessoa, que receba os dois atributos (primeiroNome, ultimoNome) e os inicialize. Lembre que o construtor pode chamar um construtor da própria classe (this(lista de parâmetros correta), altere o construtor definido no item anterior).
-Criar uma nova classe Funcionario que estenda (extends) a Pessoa com o seguinte atributo: ctps o tipo String e o encapsular fortemente.
-Criar na classe Funcionario, um construtor que receba os atributos de instânica da classe Pessoa (primeiroNome, ultimoNome, cartao) e o atributo ctps e faça a inicialização de todos atributos. Lembre que pelo menos um construtor da classe deve chamar o construtor da super classe (super(lista de parâmetros correta)).
-Na classe Funcionario, faça a sobreposição/sobreescrita (override) do método imprime() definido na classe Pessoa, para que além dos atributos definidos em Pessoa, também seja impresso o atributo definido em Funcionario.
-Finalizando crie uma classe Teste que deverá ser executada, ou seja, possuir o método main (public static void main(String[] args)). No método main deve ser realizado o seguinte código:
+
+\Implemente na sequência definida para facilitar a conclusão do trabalho/
+1. Criar a classe Pessoa com os seguintes atributos: primeiroNome do tipo String e ultimoNome do tipo String.
+2. Encapsular fortemente os atributos, ou seja, tornar primeiroNome, ultimoNome privados e implementar os métodos de acesso (get e set).
+3. Criar uma nova classe Cartao com o seguinte atributo encapsulado: codigo do tipo int.
+4. Criar um construtor na classe Cartao que receba e inicialize o seguinte atributo: codigo.
+5. Na Cartao, criar um método público para imprimir, na saída padrão (System.out.println()), todos os atributos da classe Cartao com a seguinte assinatura: imprime() além do tipo de retorno void.
+6. Voltar a classe Pessoa e incluir um atributo cartao do tipo Cartao e o encapsular fortemente.
+7. Criar um método público para imprimir, na saída padrão (System.out.println()), todos os atributos da classe Pessoa com a seguinte assinatura: imprime() além do tipo de retorno void.
+8. Ainda na classe Pessoa, criar um construtor que receba os três atributos (primeiroNome, ultimoNome, cartao) e os e inicialize.
+9. Realize uma sobrecarga (overload) do construtor da Pessoa, que receba os dois atributos (primeiroNome, ultimoNome) e os inicialize. Lembre que o construtor pode chamar um construtor da própria classe (this(lista de parâmetros correta), altere o construtor definido no item anterior).
+10. Criar uma nova classe Funcionario que estenda (extends) a Pessoa com o seguinte atributo: ctps o tipo String e o encapsular fortemente.
+11. Criar na classe Funcionario, um construtor que receba os atributos de instânica da classe Pessoa (primeiroNome, ultimoNome, cartao) e o atributo ctps e faça a inicialização de todos atributos. Lembre que pelo menos um construtor da classe deve chamar o construtor da super classe (super(lista de parâmetros correta)).
+12. Na classe Funcionario, faça a sobreposição/sobreescrita (override) do método imprime() definido na classe Pessoa, para que além dos atributos definidos em Pessoa, também seja impresso o atributo definido em Funcionario.
+13. Finalizando crie uma classe Teste que deverá ser executada, ou seja, possuir o método main (public static void main(String[] args)). No método main deve ser realizado o seguinte código:
 Cartao cartao = null;// Criar um objeto com o construtor definido no item 4
 
 //Utilizar o método imprime() definido na Cartao para imprimir os atributos do objeto cartao
